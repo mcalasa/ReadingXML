@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.DbData", "ReadingXML.DbData\ReadingXML.DbData.csproj", "{DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.MockData", "ReadingXML.MockData\ReadingXML.MockData.csproj", "{0120F7B7-DCF8-4CA1-B42A-40435829D0FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C} = {DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.Winform", "ReadingXML.Winform\ReadingXML.Winform.csproj", "{A83A3110-F89F-46CE-9921-4CA0B8188283}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08BB16B1-BDB7-483C-9FDA-73B432BD9052} = {08BB16B1-BDB7-483C-9FDA-73B432BD9052}
+		{0120F7B7-DCF8-4CA1-B42A-40435829D0FF} = {0120F7B7-DCF8-4CA1-B42A-40435829D0FF}
+		{DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C} = {DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.Presenter", "ReadingXML.Presenter\ReadingXML.Presenter.csproj", "{08BB16B1-BDB7-483C-9FDA-73B432BD9052}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0120F7B7-DCF8-4CA1-B42A-40435829D0FF} = {0120F7B7-DCF8-4CA1-B42A-40435829D0FF}
+		{DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C} = {DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.UnitTests", "ReadingXML.UnitTests\ReadingXML.UnitTests.csproj", "{6C2EFF5D-9040-4FB8-9D2C-7746D9F75999}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08BB16B1-BDB7-483C-9FDA-73B432BD9052} = {08BB16B1-BDB7-483C-9FDA-73B432BD9052}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD06C5EA-AEA8-474C-A953-11BC2FBAEB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0120F7B7-DCF8-4CA1-B42A-40435829D0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0120F7B7-DCF8-4CA1-B42A-40435829D0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0120F7B7-DCF8-4CA1-B42A-40435829D0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0120F7B7-DCF8-4CA1-B42A-40435829D0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83A3110-F89F-46CE-9921-4CA0B8188283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83A3110-F89F-46CE-9921-4CA0B8188283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83A3110-F89F-46CE-9921-4CA0B8188283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83A3110-F89F-46CE-9921-4CA0B8188283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BB16B1-BDB7-483C-9FDA-73B432BD9052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BB16B1-BDB7-483C-9FDA-73B432BD9052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BB16B1-BDB7-483C-9FDA-73B432BD9052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BB16B1-BDB7-483C-9FDA-73B432BD9052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2EFF5D-9040-4FB8-9D2C-7746D9F75999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2EFF5D-9040-4FB8-9D2C-7746D9F75999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2EFF5D-9040-4FB8-9D2C-7746D9F75999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2EFF5D-9040-4FB8-9D2C-7746D9F75999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
