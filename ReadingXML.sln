@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.UnitTests", "Rea
 		{08BB16B1-BDB7-483C-9FDA-73B432BD9052} = {08BB16B1-BDB7-483C-9FDA-73B432BD9052}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.Webform", "ReadingXML.Webform\ReadingXML.Webform.csproj", "{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{6C2EFF5D-9040-4FB8-9D2C-7746D9F75999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C2EFF5D-9040-4FB8-9D2C-7746D9F75999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C2EFF5D-9040-4FB8-9D2C-7746D9F75999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
