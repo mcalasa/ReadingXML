@@ -25,10 +25,10 @@ namespace ReadingXML.Winform
 
             //Change to either the mock data or production data. 
             //Uncomment for mock data so you can debug
-            authorsDB = new MockAuthors();
+            authorsDB = new MockAuthorsDb();
 
             //Uncomment for production data
-            //authorsDB = new Authors();
+            //authorsDB = new AuthorsDb();
 
             presenter = new Form1Presenter(this, authorsDB);
         }

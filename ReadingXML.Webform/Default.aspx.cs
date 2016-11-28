@@ -18,7 +18,7 @@ namespace ReadingXML.Webform
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            mockDb = new MockAuthors();
+            mockDb = new MockAuthorsDb();
             _presenter = new Form1Presenter(this, mockDb);
         }
 

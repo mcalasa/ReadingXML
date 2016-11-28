@@ -17,7 +17,7 @@ namespace ReadingXML.UnitTests.Winform
         [Test]
         public void GetAuthors_ReturnsCountGreaterThanZero()
         {
-            var authorsDb = new MockAuthors();
+            var authorsDb = new MockAuthorsDb();
             var view = new MockForm1View();
             var presenter = new Form1Presenter(view, authorsDb);
 
@@ -31,7 +31,7 @@ namespace ReadingXML.UnitTests.Winform
         [Test]
         public void GetSchema_ReturnsStringGreaterThanZero()
         {
-            var authorsDb = new MockAuthors();
+            var authorsDb = new MockAuthorsDb();
             var view = new MockForm1View();
             var presenter = new Form1Presenter(view, authorsDb);
 

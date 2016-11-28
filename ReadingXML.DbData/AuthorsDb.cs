@@ -9,7 +9,7 @@ using System.Configuration;
 
 namespace ReadingXML.DbData
 {
-    public class Authors : IAuthors
+    public class AuthorsDb : IAuthors
     {
 
         public DataSet GetAuthors()

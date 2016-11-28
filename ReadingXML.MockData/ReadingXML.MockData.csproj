@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MockAuthors.cs" />
+    <Compile Include="MockAuthorsDb.cs" />
     <Compile Include="XML\authors.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

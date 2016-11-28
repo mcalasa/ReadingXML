@@ -8,11 +8,11 @@ using ReadingXML.DbData;
 
 namespace ReadingXML.MockData
 {
-    public class MockAuthors : IAuthors
+    public class MockAuthorsDb : IAuthors
     {
         private DataSet _authorDataset;
         
-        public MockAuthors()
+        public MockAuthorsDb()
         {
             _authorDataset = new DataSet();
             _authorDataset.ReadXmlSchema(@"C:\Projects\ReadingXML\ReadingXML.MockData\XML\authors.xsd");            
