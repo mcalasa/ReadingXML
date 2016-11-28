@@ -12,9 +12,9 @@ namespace ReadingXML.Presenter
     public class Form1Presenter
     {
         private IForm1View _view;
-        private IAuthors _authorsDb;
+        private IAuthorsDb _authorsDb;
 
-        public Form1Presenter(IForm1View view, IAuthors authorsDb)
+        public Form1Presenter(IForm1View view, IAuthorsDb authorsDb)
         {
             _view = view;
             _authorsDb = authorsDb;

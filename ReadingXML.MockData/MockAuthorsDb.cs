@@ -8,7 +8,7 @@ using ReadingXML.DbData;
 
 namespace ReadingXML.MockData
 {
-    public class MockAuthorsDb : IAuthors
+    public class MockAuthorsDb : IAuthorsDb
     {
         private DataSet _authorDataset;
         

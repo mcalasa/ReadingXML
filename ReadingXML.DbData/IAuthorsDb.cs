@@ -7,7 +7,7 @@ using System.Data;
 
 namespace ReadingXML.DbData
 {
-    public interface IAuthors
+    public interface IAuthorsDb
     {
         DataSet GetAuthors();
     }

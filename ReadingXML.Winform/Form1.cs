@@ -16,7 +16,7 @@ namespace ReadingXML.Winform
 {
     public partial class Form1 : Form, IForm1View
     {
-        IAuthors authorsDB;
+        IAuthorsDb authorsDB;
         Form1Presenter presenter;
 
         public Form1()

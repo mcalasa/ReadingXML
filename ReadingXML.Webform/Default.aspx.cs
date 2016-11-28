@@ -13,7 +13,7 @@ namespace ReadingXML.Webform
 {
     public partial class Default : System.Web.UI.Page, IForm1View
     {
-        IAuthors mockDb;
+        IAuthorsDb mockDb;
         Form1Presenter _presenter;
 
         protected void Page_Load(object sender, EventArgs e)
