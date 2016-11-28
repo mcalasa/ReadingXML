@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.UnitTests", "Rea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.Webform", "ReadingXML.Webform\ReadingXML.Webform.csproj", "{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingXML.MVC", "ReadingXML.MVC\ReadingXML.MVC.csproj", "{EFB50772-756A-451E-81BD-6133ED0C7070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42FB9578-BDD3-48FF-A41E-52E8FEEE0A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB50772-756A-451E-81BD-6133ED0C7070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB50772-756A-451E-81BD-6133ED0C7070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB50772-756A-451E-81BD-6133ED0C7070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB50772-756A-451E-81BD-6133ED0C7070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
